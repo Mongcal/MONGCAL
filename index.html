@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=v, initial-scale=1.0">
+    <title>my profile</title>
+    <style>
+         p,
+        h3 {
+            padding: 5px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 3, 1fr;
+            grid-template-rows: 3, 1vh;
+            grid-template-areas: 
+            "name name name "
+            "picture  "
+            "information information information ";
+
+            gap: 5px;
+
+        }
+        
+        .name {
+            background-color:darksalmon;
+        }
+        .picture {
+            background-color:floralwhite;
+        }
+
+        
+        .information {
+            background-color:darksalmon;
+        }
+
+        .name {
+            grid-column: 1/4;
+            grid-row: 1/2;
+        }
+
+        .picture {
+            grid-column: 2/3;
+            grid-row: 2/3;
+
+                }       
+         .information {
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+            <center><h1>Hi i am Wela Mae Mongcal </h1></center>
+        </div>
+        <div class="picture">
+            <img src= "wela.jpg" width="500" height="300">
+
+        </div>
+        <div class="information">
+            <center><h3> Hello my name is Wela Mae Mongcal 22 years of age, from brgy. Magballo Kabankalan City Negross Occidental. I graduated my Elementay in Magballo Elementay School and also my Junior/Senior high in Tapi National high school. Now Currently studying at Central Philippine State University taking up Bachelor of Science in information Technology. The reason why I choose this Course is that I want to enhance my skills and knowledge about computer and also to be a Network Architech someday.</h3></center>
+     </div>
+
+    </div>
+
+    
+</body>
+</html>
